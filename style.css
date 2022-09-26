@@ -18,12 +18,16 @@ p{
     margin-top: 25px;
 }
 
+/* Styling of the container for all boxes */
+
 #container{
     width: 100%;
     padding: 20px;
     margin-top: 50px;
     font-size: 1em;
 }
+
+/* Styling of the firstbox  */
 
 .firstbox{
     float:left ;
@@ -32,10 +36,10 @@ p{
     height: 170px;
     padding: 20px;
     font-size: 1em;
+    border: 3px solid black;
     text-align: justify;
     color: white;
     position: relative;
-    border: 3px solid black;
 }
 
 .firstbox h2{
@@ -51,6 +55,8 @@ p{
     text-align: center;
 }
 
+/* Styling of the Secondbox  */
+
 .secondbox{
     float:left;
     background-color: #555353;
@@ -59,10 +65,10 @@ p{
     padding: 20px;
     margin-left: 28px;
     font-size: 1em;
+    border: 3px solid black;
     text-align: justify;
     color: white;
     position: relative;
-    border: 3px solid black;
 }
 
 .secondbox h2{
@@ -78,17 +84,19 @@ p{
     text-align: center;
 }
 
+/* Styling of the Lastbox  */
+
 .lastbox{
     float:right;
     background-color: #555353;
     width: 32%;
     height: 170px;
     padding: 20px;
+    border: 3px solid black;
     font-size: 1em;
     text-align: justify;
     color: white;
     position: relative;
-    border: 3px solid black;
 }
 
 .lastbox h2{
@@ -104,14 +112,10 @@ p{
     text-align: center;
 }
 
+/* Media Query Section For Tablet*/
+
 
 @media (min-width:768px)  and (max-width: 991px){
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
     #container{
         width: 100%;
@@ -119,7 +123,6 @@ p{
         margin-top: 30px;
         font-size: 1em;
     }
-
     
 .firstbox{
     float:left;
@@ -128,14 +131,12 @@ p{
     padding: 23px;
 }
 
-
 .secondbox{
     float:left;
     width: 48%;
     height: 180px;
     padding: 23px;
 }
-
 
 .lastbox{
     display: block;
@@ -146,14 +147,9 @@ p{
 
 }
 
+/* Media Query Section For Smallest Screen*/
+
 @media (max-width:767px){
-
-
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
 #container{
     width: 100%;
